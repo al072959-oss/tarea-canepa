@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
         /* Estilos básicos para el acordeón */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
         .accordion {
             background-color: #f1f1f1;
             border: 1px solid #ccc;
@@ -61,7 +71,7 @@
 
 <div class="accordion">
     <div class="accordion-item">
-        <button class="accordion-header">`<header>`</button>
+        <button class="accordion-header"><header> Cabecera de documento</button>
         <div class="accordion-content">
             <p>Define la cabecera de un documento o una sección. Es comúnmente usada para contener logotipos, menús de navegación, títulos, entre otros elementos.</p>
             <p>Ejemplo:</p>
@@ -73,7 +83,7 @@
     </div>
 
     <div class="accordion-item">
-        <button class="accordion-header">`<nav>`</button>
+        <button class="accordion-header"><nav> Navegación</button>
         <div class="accordion-content">
             <p>Define una sección de navegación. Se utiliza para enlazar a otras páginas o secciones dentro de un mismo documento.</p>
             <p>Ejemplo:</p>
@@ -85,7 +95,7 @@
     </div>
 
     <div class="accordion-item">
-        <button class="accordion-header">`<main>`</button>
+        <button class="accordion-header"><main> Contenido principal</button>
         <div class="accordion-content">
             <p>Representa el contenido principal de un documento. El contenido que es único y central para la página web debe ir dentro de esta etiqueta.</p>
             <p>Ejemplo:</p>
@@ -97,7 +107,7 @@
     </div>
 
     <div class="accordion-item">
-        <button class="accordion-header">`<aside>`</button>
+        <button class="accordion-header"><aside> Contenido relacionado</button>
         <div class="accordion-content">
             <p>Define contenido relacionado que puede ser considerado adicional o complementario al contenido principal, como barras laterales o citas.</p>
             <p>Ejemplo:</p>
@@ -108,7 +118,7 @@
     </div>
 
     <div class="accordion-item">
-        <button class="accordion-header">`<footer>`</button>
+        <button class="accordion-header"><footer> Pie de página</button>
         <div class="accordion-content">
             <p>Representa el pie de página de un documento o sección. Se suele usar para poner información de contacto, derechos de autor o enlaces relacionados.</p>
             <p>Ejemplo:</p>
@@ -119,9 +129,9 @@
     </div>
 
     <div class="accordion-item">
-        <button class="accordion-header">`<h1>` a `<h6>`</button>
+        <button class="accordion-header"><h1><h6> Encabezados</button>
         <div class="accordion-content">
-            <p>Definen encabezados de diferentes niveles, siendo `<h1>` el más importante y `<h6>` el menos importante.</p>
+            <p>Definen encabezados de diferentes niveles, siendo <h1> el más importante y <h6> el menos importante.</p>
             <p>Ejemplo:</p>
             <pre><code>&lt;h1&gt;Encabezado principal&lt;/h1&gt;
 &lt;h2&gt;Subencabezado&lt;/h2&gt;</code></pre>
@@ -129,18 +139,18 @@
     </div>
 
     <div class="accordion-item">
-        <button class="accordion-header">`<span>`</button>
+        <button class="accordion-header"><span> Contenedor en línea</button>
         <div class="accordion-content">
-            <p>La etiqueta `<span>` es un contenedor en línea que se utiliza para agrupar contenido en línea y poder darle estilo.</p>
+            <p>La etiqueta <span> es un contenedor en línea que se utiliza para agrupar contenido en línea y poder darle estilo.</p>
             <p>Ejemplo:</p>
             <pre><code>&lt;span style="color:red"&gt;Texto en rojo&lt;/span&gt;</code></pre>
         </div>
     </div>
 
     <div class="accordion-item">
-        <button class="accordion-header">`<div>`</button>
+        <button class="accordion-header"><div> Contenedor de bloques</button>
         <div class="accordion-content">
-            <p>La etiqueta `<div>` es un contenedor genérico utilizado para agrupar contenido en bloques.</p>
+            <p>La etiqueta <div> es un contenedor genérico utilizado para agrupar contenido en bloques.</p>
             <p>Ejemplo:</p>
             <pre><code>&lt;div class="contenedor"&gt;
     &lt;p&gt;Este es un bloque&lt;/p&gt;
@@ -149,7 +159,7 @@
     </div>
 
     <div class="accordion-item">
-        <button class="accordion-header">`<a>`</button>
+        <button class="accordion-header"><a> Hipervínculo</button>
         <div class="accordion-content">
             <p>Define un hipervínculo, utilizado para enlazar a otras páginas o secciones.</p>
             <p>Ejemplo:</p>
@@ -158,9 +168,9 @@
     </div>
 
     <div class="accordion-item">
-        <button class="accordion-header">`<ol>`, `<ul>`, `<li>`</button>
+        <button class="accordion-header">Listas</button>
         <div class="accordion-content">
-            <p>Se utilizan para crear listas ordenadas (`<ol>`) o desordenadas (`<ul>`). Los elementos de la lista se definen con `<li>`.</p>
+            <p>Se utilizan para crear listas ordenadas (<ol>) o desordenadas (<ul>). Los elementos de la lista se definen con <li>.</p>
             <p>Ejemplo:</p>
             <pre><code>&lt;ul&gt;
     &lt;li&gt;Elemento 1&lt;/li&gt;
@@ -168,8 +178,6 @@
 &lt;/ul&gt;</code></pre>
         </div>
     </div>
-
-    <!-- Continuar con el resto de etiquetas... -->
 </div>
 
 <script>
